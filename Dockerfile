@@ -1,4 +1,4 @@
-FROM ankane/pgvector:v0.4.4
+FROM timescale/timescaledb-ha:pg16
 
 ARG POSTGRES_PASSWORD POSTGRES_USER POSTGRES_DB
 
